@@ -90,8 +90,9 @@ Your app will be running at **http://localhost:3000** 🚀
 ---
 
 ## 🚀 Live Demo
-🔗 **Backend (Render)** → [https://bidai-backend.onrender.com/api/products](https://bidai-backend.onrender.com/api/products)  
-🔗 **Frontend (Render)** → [https://bidai-frontend.onrender.com/](https://bidai-frontend.onrender.com/)  
+🔗 **Backend** → [Render Link](https://bidai-backend.onrender.com/api/products)  
+🔗 **Frontend** → [Render Link](https://bidai-frontend.onrender.com/)  
+🔗 **GitHub Repository** → [bidai-app repository](https://github.com/diptendu07/bidai-app)
 
 ---
 
@@ -106,5 +107,3 @@ For any queries, feel free to reach out:
 Hope to discuss this project with you soon. 🚀
 
 
-frontend github: https://github.com/diptendu07/bidai-frontend
-backend github: https://github.com/diptendu07/bidai-backend

@@ -6,10 +6,15 @@ const WalletPage = () => {
     const [userId, setUserId] = useState(null);
 
     useEffect(() => {
-        // Fetch user ID dynamically (example: from local storage)
         const storedUserId = localStorage.getItem("userId");
+        
+        if (!storedUserId) {
+            console.error("User ID not found in localStorage.");
+        }
+    
         setUserId(storedUserId);
     }, []);
+    
 
     return (
         <div>

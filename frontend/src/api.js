@@ -13,9 +13,15 @@ export const getProductById = async (id) => {
 };
 
 export const getUserWallet = async (userId) => {
-    const res = await axios.get(`${API_URL}/wallet/${userId}`);
-    return res.data;
+    try {
+        const res = await axios.get(`${API_URL}/wallet/${userId}`);
+        return res.data;
+    } catch (error) {
+        console.error("Error fetching wallet:", error);
+        return { walletBalance: 0 };  // Prevent breaking the app
+    }
 };
+
 
 export const redeemPoints = async (userId, productId, points) => {
     const res = await axios.post(`${API_URL}/wallet/redeem`, { userId, productId, points });
